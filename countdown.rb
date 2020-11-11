@@ -9,5 +9,8 @@ def countdown (x)
 end
 
 def countdown_with_sleep (x)
-
+  if x > 5
+    return true
+  else
+    false
 end
